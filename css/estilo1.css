@@ -1,0 +1,90 @@
+body{
+    background: rgb(0, 0, 0);
+  
+}
+
+h1{
+    text-align: center;
+    color: white;
+    opacity: 0.5;
+}
+
+.text{
+    text-align: justify;
+    width: 30%;
+    height: 10px;
+    color: white;
+    font-family: helvetica;
+    margin-left: 10%;
+    float: left;
+ }
+
+.imgs{
+
+    display: flex;
+    margin-left: 50%;
+   
+}
+
+
+h6{
+color: rgb(255, 255, 113);
+font-family: Roboto;
+}
+
+
+.card{
+    float: left;
+    text-align: center;
+    margin-left: 10% ;
+}
+
+
+
+.btn {
+    display: inline-block; 
+    font-size: 16px; 
+    font-weight: 600; 
+    text-align: center; 
+    text-decoration: none; 
+    cursor: pointer; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+
+.btn-secondary {
+    background-color: #6c757d; 
+    color: white; 
+}
+
+
+.btn-lg {
+    font-size: 18px; 
+    padding: 15px 30px; 
+}
+
+
+.btn.active,
+.btn:hover {
+    background-color: #5a6268; 
+    transform: scale(1.05); 
+}
+
+
+.btn:active {
+    background-color: #343a40; 
+    transform: scale(0.98); 
+}
+
+
+.grid-container {
+    display: grid; 
+    margin-left: 50px;
+    text-align: center;
+    align-items: center;
+    height: 100px; 
+    margin: 0; 
+}
